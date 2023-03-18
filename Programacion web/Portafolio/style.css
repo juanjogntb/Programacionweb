@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #CC8E8E;
+    height: 355px;
+}
+
+h1{
+    font-size: 55px;
+}
+
+h3{
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: -30px;
+}
+
+h4{
+    font-size: 30px;
+    padding-left: 115px;
+}
+
+.headerDivSpace{
+    display: flex;
+}
+.headerDivText{
+    margin-left: 550px;
+    margin-top: 40px;
+}
+.imgSpace{
+    
+    border-radius: 50%;
+    width: 260px;
+    height: 260px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.bodyDivSpace{
+    display: flex;
+}
+
+.bodyDivContainer{
+    margin-left: 200px;
+}
+
+.bodyDivBox{
+    background-color: #E37A59;
+    width: 350px;
+    height: 400px;
+}
+
+.bodyDivText{
+    padding: 35px;
+    font-size: 20px;
+}

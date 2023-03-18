@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: honeydew;
+}
+
+h2{
+    margin-left: 400px;
+    font-size: 50px;
+}
+
+h4{
+    font-size: 21px;
+    font-weight: 200;
+}
+
+p{
+    margin-left: -80px;
+    font-size: 21px;
+}
+
+span{
+    margin-right: 15px;
+}
+
+
+.imgSpace{
+    
+    border-radius: 50%;
+    width: 260px;
+    height: 260px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.imgSpace2{
+    
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-left: -80px;
+    margin-top: 70px;
+}
+
+.bodyDivSpace{
+    display: flex;
+}
+
+.bodyDivColor{
+    background-color: #55B8C6;
+    width: 475px;
+    height: 1440px;
+}
+
+.bodyDivData{
+    margin-top: 50px;
+    margin-left: 165px;
+}
+
+.bodyDivTextPrin{
+    padding: 20px;
+    margin-left:100px;
+    max-width: 1150px;
+}
