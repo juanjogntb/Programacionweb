@@ -1,0 +1,53 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Century Gothic;
+    font-size: 1.4rem;
+}
+
+body {
+    background-color: #ededed; 
+}
+
+button{
+    margin-top: 15px;
+    background-color: rgb(160, 174, 255);
+    font-size: 1.2rem !important;
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.in-flex{
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+}
+.in-flex:first-child{
+    flex: 2;
+    padding: 25px;
+    background-color: #fff;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+.in-flex div{
+    padding: 25px;
+    background-color: #fff;
+    margin: 20px;
+}
+
+.imgs{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -30px;
+    max-width: 100%;
+}
+
+.divsBtn button{
+    margin-right: 12px;
+    font-size: 1.4rem;
+    object-fit: contain;
+    
+}
