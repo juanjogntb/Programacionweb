@@ -1,0 +1,122 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Century Gothic;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(232, 23, 23);
+}
+
+p {
+  margin: 0.9rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+body {
+  background-color: #cf266f;
+}
+
+.home {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.in-flex {
+  flex: 1;
+  min-width: 250px;
+}
+.in-flex:first-child {
+  flex: 2;
+  padding: 25px;
+  background-color: #83bae1;
+  margin: 20px;
+  margin-bottom: 0px;
+}
+.in-flex div {
+  padding: 25px;
+  background-color: #69d3d8;
+  margin: 20px;
+}
+
+.divSpace {
+  margin: 0px !important;
+  padding: 0px !important;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.divRedes {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (min-width: 589px) {
+  .img {
+    width: 120%;
+    height: 80%;
+    object-fit: scale-down;
+  }
+}
+
+.imgLogo {
+  width: 100%;
+  border-radius: 50%;
+  border: 5px solid #1f01ff;
+}
+
+.flashcard {
+  width: 30rem;
+  height: 32rem;
+  border: 1px solid #6f6f6f;
+  border-radius: 5px;
+  padding: auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.front {
+  margin: 0px !important;
+  padding: 0px !important;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 15rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button {
+  font-family: Georgia;
+  color: #000000;
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  text-shadow: 1px 1px 3px #e8e8e8;
+  border: solid #000000 2px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#1de3c9), to(#527ecc));
+  background: -moz-linear-gradient(top, #1de3c9, #527ecc);
+}
+.button:hover {
+  background: #233bd9;
+}
