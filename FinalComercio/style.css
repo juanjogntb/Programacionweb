@@ -1,0 +1,158 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Century Gothic;
+}
+
+.img{
+  height: 60px;
+  margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    margin-left: 2rem;
+}
+
+header{
+     display: flex;
+     height: 100px;
+     background-color:rgb(73, 190, 233);
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px;
+}
+
+body {
+    background-color: #cf93db; 
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.in-flex{
+    flex: 1;
+    min-width: 250px;
+}
+.in-flex:first-child{
+    flex: 2;
+    padding: 15px;
+    background-color: #b4d89e;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+.in-flex div{
+    padding: 20px;
+    background-color: #b4d89e;
+    margin: auto;
+    margin-bottom: 23px !important;
+}
+
+.flashcard {
+    width: 28rem;
+    height: 30rem;
+    border: 1px solid #6f6f6f;
+    border-radius: 5px;
+    padding: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .divSpace {
+    margin: 0px !important;
+    padding: 0px !important;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .front {
+    margin: 0px !important;
+    padding: 0px !important;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .front p{
+    margin: auto;
+    padding: auto;
+  }
+
+  
+.img2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.button{
+  font-family: Georgia;
+  color: #000000;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+  box-shadow: 0px 1px 3px #666666;
+  border: solid #000000 1px;
+  background: #527ecc;
+  width: 7rem;
+  height: 2.1rem;
+  }
+
+.button:hover {
+    background: #23bffc;
+} 
+
+.text{
+    display: flex;
+    padding: auto;
+}
+
+  nav a{
+    font-weight: 600;
+     padding-right: 10px;
+  }
+ nav a:hover{
+     color:
+              white;
+ }
+@media (max-width:700px){
+     header{
+         flex-direction: column;
+     }
+     nav{
+         padding: 10px 0px;
+     }
+    }
+
+    @media (min-width:500px){
+        .img2 {
+            width: 15rem;
+            height: 15rem;
+            object-fit: cover;
+          }
+        .flashcard {
+            width: 28rem;
+            height: 23rem;
+            border: 1px solid #6f6f6f;
+            border-radius: 5px;
+            padding: auto;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            text-align: center;
+            font-size: 20px;
+            display: flex;
+            flex-wrap: wrap;
+        }  
+    }  

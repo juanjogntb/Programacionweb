@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProyectoFinal</title>
+    <script src="js.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="text">
+        <img class="img" src="logopc.png" alt="LogoPC" />
+        <h1>ElectroGT</h1>
+      </div>
+      <nav>
+        <a onclick="mostrar1()">Inicio</a>
+        <a onclick="mostrar2()">Contacto</a>
+        <a onclick="mostrar3()">Carrito</a>
+      </nav>
+    </header>
+    <section class="home" id="inicio">
+      <div class="in-flex">
+        <div class="divSpace">
+          <div class="flashcard">
+            <div class="front">
+              <img class="img2" src="ram.png" alt="Ram" />
+              <p>Memoria Ram 16Gb</p>
+              <p>
+                Las mejores especificaciones para tu equipo, con el mejor
+                rendimiento en el mercado.
+              </p>
+              <p>&#x2b50; &#x2b50; &#x2b50; &#x2b50; &#x2b50;</p>
+              <button onclick="agregar(200000,'Memoria Ram')" class="button">Comprar</button>
+              <p>200.000$</p>
+            </div>
+          </div>
+
+          <div class="flashcard">
+            <div class="front">
+              <img class="img2" src="Ryzen.png" alt="Ryzen" />
+              <p>Procesador Ryzen 7</p>
+              <p>No querras cuellos de botella al hacer stream en COD !!.</p>
+              <p>&#x2b50; &#x2b50; &#x2b50; &#x2b50;</p>
+              <button onclick="agregar(500000,'Procesador Ryzen')" class="button">Comprar</button>
+              <p>500.000$</p>
+            </div>
+          </div>
+
+          <div class="flashcard">
+            <div class="front">
+              <img class="img2" src="pasta.png" alt="Pasta" />
+              <p>Pasta termica</p>
+              <p>
+                Para evitar ese molesto sobrecalentamiento despues de todo un
+                dia de uso.
+              </p>
+              <p>&#x2b50; &#x2b50; &#x2b50; &#x2b50; &#x2b50;</p>
+              <button onclick="agregar(60000,'Pasta')" class="button">Comprar</button>
+              <p>60.000$</p>
+            </div>
+          </div>
+
+          <div class="flashcard">
+            <div class="front">
+              <img class="img2" src="board.png" alt="Board" />
+              <p>Board</p>
+              <p>
+                Obten de los mejores componentes en el mercado para tu setup.
+              </p>
+              <p>&#x2b50; &#x2b50; &#x2b50; &#x2b50;</p>
+              <button onclick="agregar(320000,'Board')" class="button">Comprar</button>
+              <p>320.000$</p>
+            </div>
+          </div>
+          <div class="flashcard">
+            <div class="front">
+              <img class="img2" src="cool.png" alt="Pasta" />
+              <p>Disipador</p>
+              <p>
+                Cuidad la ventilacion correcta de tu equipo en todo momento.
+              </p>
+              <p>&#x2b50; &#x2b50; &#x2b50; &#x2b50; &#x2b50;</p>
+              <button onclick="agregar(110000,'Disipador')" class="button">Comprar</button>
+              <p>110.000$</p>
+            </div>
+          </div>
+
+          <div class="flashcard">
+            <div class="front">
+              <img class="img2" src="monitor.png" alt="Pasta" />
+              <p>Monitor 22" Gamer</p>
+              <p>La mejor relacion calidad/precio resolucion.</p>
+              <p>&#x2b50; &#x2b50; &#x2b50; &#x2b50; &#x2b50;</p>
+              <button onclick="agregar(550000,'Monitor')" class="button">Comprar</button>
+              <p>550.000$</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+        <div class="in-flex">
+            <img class="img2" src="setup.jpg" alt="SetupGamer">
+                <h1>Contactanos de manera directa:</h1>
+                <p>&#x1f4f1; Telofono: 4569871</p>
+                <p>&#x1f4e9; Correo: electroGT@gmail.com</p>
+                <p>&#x1f5a5;&#xfe0f; Redes: @gamersGT</p>
+        </div>
+    </section>
+
+    <section id="carrito">
+        <div class="in-flex">
+            
+              <h1>Aqui podras encontrar el valor total de tus productos adquiridos:</h1>
+              <br>
+              <h2 id="contenido2">Productos:</h2>
+              <br>
+              <h2 id="contenido3"></h2>
+              <br>
+                <h2 id="contenido">!El carrito actualmente se encuentra vacio!</h2>
+                <br>
+                <button onclick="pagar()" class="button">Pagar</button>
+            
+        </div>
+    </section>
+  </body>
+</html>
